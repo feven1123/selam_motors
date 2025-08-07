@@ -10,6 +10,7 @@ export default function AboutPage() {
   return (
     <>
       <Topbar />
+      
       <Header />
       <div style={{ height: '80px' }} />
       <main className="min-h-screen bg-white">
