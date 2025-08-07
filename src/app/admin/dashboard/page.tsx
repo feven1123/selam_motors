@@ -41,7 +41,7 @@ export default function AdminDashboardPage() {
         const total = data.length;
         const available = data.filter(c => c.status === 'Available').length;
         const sold = data.filter(c => c.status === 'Sold').length;
-        const featured = data.filter(c => c.status === 'Feaured').length;
+        const featured = data.filter(c => c.isFeatured).length;
 
         setStats([
           { title: 'Total Cars', value: total },
